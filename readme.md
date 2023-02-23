@@ -3,12 +3,9 @@
 Megazone Cloud 현종원 매니저입니다.
 
 수정 요소
-
-Jenkins Agent Container 설정 부분
-
-ACM 의 git 주소
-
-Private Registry 주소
+- Jenkins Agent Container 설정 부분
+- ACM 의 git 주소
+- Private Registry 주소
 
 빌드 부분은 각 언어에 맞는 Tools을 쓰시거나 pack을 사용 하셔도 됩니다.
 
