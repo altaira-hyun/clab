@@ -47,13 +47,13 @@ spec:
     environment {
       // Credentials
 		// GitLAB
-        GIT_CREDENTIALS_ID = "1b427c09-d8be-4108-88a9-6220f597e495"
-        GIT_URL = "gitlab.coinsik.net/ama/pet-clinic.git" // http:// 또는 https:// 제거		
+        GIT_CREDENTIALS_ID = ""
+        GIT_URL = "" // http:// 또는 https:// 제거		
         BRANCH ="main"
         
         // Harbor
-        HARBOR_CREDENTIALS = credentials('1fdfcb01-aeb9-403a-8a35-5984dd767d11')
-        HARBOR_URL = "harbor.devops.tanzu-altair.com"
+        HARBOR_CREDENTIALS = credentials('')
+        HARBOR_URL = ""
         HARBOR_PROJECT = "apps"
 
         // Build
