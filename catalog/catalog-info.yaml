@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pet-clinic
+  description: Spring-pet-clinic
+  tags:
+    - tanzu
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=pet-clinic'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
+
