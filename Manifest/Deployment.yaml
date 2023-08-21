@@ -17,4 +17,4 @@ spec:
     spec:
       containers:
       - name: spring-petclinic
-        image: harbor.devops.tanzu-altair.com/apps/spring-petclinic:45
+        image: altaira/pet-clinic:test
