@@ -17,4 +17,4 @@ spec:
     spec:
       containers:
       - name: spring-petclinic
-        image: altaira/pet-clinic:test
+        image: altaira/pet-clinic:5942cfe7c08353fe7c9ac49a77663bf522ec372d
