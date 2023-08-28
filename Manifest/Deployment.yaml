@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: spring-petclinic
-        image: altaira/pet-clinic:0c98905d199726bc02eea326e8f8161f00fae266
+        image: altaira/pet-clinic:4ddeb4463dca3ceb80579ed334f929e725d2c599
 #        env:
 #          - name: SPRING_PROFILES_ACTIVE
 #            value: postgres
