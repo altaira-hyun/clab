@@ -1,0 +1,15 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: spring-petclinic
+  namespace: default
+  labels:
+    app.kubernetes.io/instance: pet-clinic
+spec:
+  to:
+    kind: Service
+    name: spring-petclinic-svc
+  tls: null
+  host: spring-petclinic.matilda-mzc.com
+  port:
+    targetPort: 8080
